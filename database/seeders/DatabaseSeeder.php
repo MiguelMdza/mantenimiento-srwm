@@ -18,11 +18,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        User::factory(10)->create();
-        Platillo::factory()->count(10)->create();
-        $this->call(tipoAlimentoSeeder::class);
-        Ingrediente::factory()->count(10)->create();
-        Proveedor::factory()->count(10)->create();
-        Mesa::factory()->count(30)->create();
+        //
     }
 }
