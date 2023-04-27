@@ -2,17 +2,17 @@
 
 namespace Database\Factories;
 
-use App\Models\Mesa;
+use App\Models\Comanda;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class MesaFactory extends Factory
+class ComandaFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = Mesa::class;
+    protected $model = Comanda::class;
 
     /**
      * Define the model's default state.
@@ -22,8 +22,9 @@ class MesaFactory extends Factory
     public function definition()
     {
         return [
-            'disponible' => $this->faker->boolean(),
-            'cantidad_personas' => $this->faker->numberBetween(1, 10),
+            'cerrada' => $this->faker->boolean(),
+            'total' => $this->faker->randomFloat(2),
+            'comentarios' => $this->faker->text(),
         ];
     }
 }
