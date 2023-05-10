@@ -25,6 +25,7 @@ Route::get('/', function () {
  
 
 Route::get('/test', [OrdenController::class, 'test'])->name('test');
+Route::resource('mesa', MesaController::class);
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
