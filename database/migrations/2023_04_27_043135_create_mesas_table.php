@@ -16,7 +16,7 @@ class CreateMesasTable extends Migration
         Schema::create('mesas', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->nullable()->constrained('users')->onDelete('cascade');
-            $table->boolean('disponible');
+            $table->boolean('disponible')->nullable();
             $table->integer('cantidad_personas');
             $table->timestamps();
         });

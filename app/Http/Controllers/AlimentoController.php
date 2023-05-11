@@ -15,7 +15,8 @@ class AlimentoController extends Controller
      */
     public function index()
     {
-        //
+        $alimentos = Alimento::all();
+        return view('alimentos/alimentoIndex', compact('alimentos'));
     }
 
     /**
@@ -25,7 +26,7 @@ class AlimentoController extends Controller
      */
     public function create()
     {
-        //
+        return view('alimentos/alimentoCreate');
     }
 
     /**
@@ -36,7 +37,16 @@ class AlimentoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'nombre' => 'required|string|max:255',
+            'precio' => 'required|numeric|min:0',
+            'descripcion' => 'required|string|max:255',
+            'tipo' => 'required|string',
+        ]);
+
+        Alimento::create($request->all());
+
+        return redirect('/alimento');
     }
 
     /**
@@ -58,7 +68,7 @@ class AlimentoController extends Controller
      */
     public function edit(Alimento $alimento)
     {
-        //
+        return view('alimentos/alimentoEdit', compact('alimento'));
     }
 
     /**
@@ -69,8 +79,17 @@ class AlimentoController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Alimento $alimento)
-    {
-        //
+    { 
+        $request->validate([
+            'nombre' => 'required|string|max:255',
+            'precio' => 'required|numeric|min:0',
+            'descripcion' => 'required|string|max:255',
+            'tipo' => 'required|string',
+        ]);
+
+        Alimento::where('id', $alimento->id)->update($request->except('_token', '_method'));
+
+        return redirect('/alimento');
     }
 
     /**
@@ -81,6 +100,8 @@ class AlimentoController extends Controller
      */
     public function destroy(Alimento $alimento)
     {
-        //
+        $alimento->delete();
+
+        return redirect('/alimento');
     }
 }
