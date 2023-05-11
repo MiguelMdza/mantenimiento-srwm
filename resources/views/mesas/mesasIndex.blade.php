@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>SRWM - MESAS</title>
+        <title>SRWM - Mesas</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -37,19 +37,10 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="{{ url('/') }}" class="nav-item nav-link">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="/comanda" class="nav-item nav-link">Comandas</a>
                         <a href="/mesa" class="nav-item nav-link active">Mesas</a>
-                        <a href="team.html" class="nav-item nav-link">Chef</a>
-                        <a href="menu.html" class="nav-item nav-link">Menu</a>
-                        <a href="booking.html" class="nav-item nav-link">Booking</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="/alimento" class="nav-item nav-link">Alimentos</a>
+                        <!-- <a href="team.html" class="nav-item nav-link">Chef</a> -->
                     </div>
                 </div>
             </div>
@@ -110,7 +101,7 @@
                                 <td>{{ $mesa->cantidad_personas }}</td>
                             
                                 <td>
-                                    <a class="btn custom-btn" href="/mesa/{{ $mesa->id }}/edit">Editar</a>
+                                    <a class="btn btn-warning" href="/mesa/{{ $mesa->id }}/edit">Editar</a>
                                 </td>
                                 <td>
                                     <form class="formulario-eliminar" action="/mesa/{{ $mesa->id }}" method="POST">

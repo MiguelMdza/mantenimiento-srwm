@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Burger King - Food Website Template</title>
+        <title>SRWM - Inicio</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -37,25 +37,16 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="{{ url('/') }}" class="nav-item nav-link active">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="/comanda" class="nav-item nav-link">Comandas</a>
                         <a href="/mesa" class="nav-item nav-link">Mesas</a>
-                        <a href="team.html" class="nav-item nav-link">Chef</a>
                         <a href="/alimento" class="nav-item nav-link">Alimentos</a>
-                        <a href="booking.html" class="nav-item nav-link">Booking</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <!-- <a href="team.html" class="nav-item nav-link">Chef</a> -->
+                        
                     </div>
                 </div>
             </div>
         </div>
         <!-- Nav Bar End -->
-
 
         <!-- Carousel Start -->
         <div class="carousel">
