@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Axl</title>
+        <title>SRWM - Editar Comanda</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+        <link href="img/logo_small.png" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
@@ -29,27 +29,19 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand"><span>SRWM</span></a>
+                <a href="{{ url('/')}}" class="navbar-brand"><span>SRWM</span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="#" class="nav-item nav-link">Home</a>
-                        <a href="comanda" class="nav-item nav-link active">Comandas</a>
-                        <a href="mesa" class="nav-item nav-link">Feature</a>
-                        <a href="alimento" class="nav-item nav-link">Chef</a>
-                        <a href="alimento" class="nav-item nav-link">Menu</a>
-                        <a href="booking.html" class="nav-item nav-link">Booking</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="{{ url('/')}}" class="nav-item nav-link">Inicio</a>
+                        <a href="/comanda" class="nav-item nav-link active">Comandas</a>
+                        <a href="/mesa" class="nav-item nav-link">Mesas</a>
+                        <a href="/alimento" class="nav-item nav-link">Alimentos</a>
+                        <!-- <a href="alimento" class="nav-item nav-link">Chef</a> -->
+                        
                     </div>
                 </div>
             </div>
@@ -80,21 +72,14 @@
                     <div class="col-lg-7">
                         <div class="booking-content">
                             <div class="section-header">
-                                <p>HORA DE TRABAJAR</p>
-                                <h2>¡Recuerda atender a los clientes como a ti te gustaría que te atendiarían!</h2>
-                            </div>
-                            <div class="about-text">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-                                </p>
+                                <p>MODIFICA LA INFORMACIÓN DE TU COMANDA</p>
+                                <h2>¡Este proceso es importante para evitar malentendidos!</h2>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5">
                         <div class="booking-form">
+                            <h3>LA MEJOR COMIDA DE LA CIUDAD</h3>
                             @if($errors->any())
                             <div class="alert alert-danger">
                                 <ul>
@@ -107,6 +92,33 @@
                             <form action="/comanda/{{ $comanda->id }}" method="POST">
                                 @csrf
                                 @method('PATCH')
+
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <select name="mesas_id[]" value="{{ old('mesa_id') }}" id="user_id" class="form-control form-control-lg" multiple>
+                                            <option selected disabled>Mesa que se atiende</option>
+                                             @foreach($mesas as $mesa)
+                                                <option value="{{ $mesa->id }}"  {{ array_search($mesa->id, $comanda->mesas->pluck('id')->toArray()) !== false ? 'selected' : '' }}>
+                                                    {{ $mesa->id }}
+                                                </option>
+                                            @endforeach
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <div class="input-group">
+                                        <select name="alimentos_id[]" value="{{ old('alimento_id') }}" id="user_id" class="form-control form-control-lg" multiple>
+                                            <option selected disabled>Alimentos requeridos</option>
+                                            @foreach($alimentos as $alimento)
+                                                <option value="{{ $alimento->id }}"  {{ array_search($alimento->id, $comanda->alimentos->pluck('id')->toArray()) !== false ? 'selected' : '' }}>
+                                                    {{ $alimento->nombre }}
+                                                </option>
+                                            @endforeach
+                                        </select>
+                                    </div>
+                                </div> 
+
                                 <div class="control-group">
                                     <div class="input-group">
                                         <input type="integer" name="total" id="total" class="form-control" placeholder="Total" value="{{ $comanda->total }}" required="required" />
