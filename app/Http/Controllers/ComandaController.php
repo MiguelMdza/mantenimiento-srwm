@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Comanda;
+use App\Models\Mesa;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
@@ -15,7 +16,8 @@ class ComandaController extends Controller
      */
     public function index()
     {
-        //
+        $comandas = Comanda::all();
+        return view('comandas/comandaIndex', compact('comandas'));
     }
 
     /**
@@ -25,7 +27,9 @@ class ComandaController extends Controller
      */
     public function create()
     {
-        //
+        $mesas = Mesa::all();
+
+        return view('comandas/comandaCreate', compact('mesas'));
     }
 
     /**
@@ -36,7 +40,14 @@ class ComandaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'total' => 'required',
+            'comentarios',
+        ]);
+
+        Comanda::create($request->all());
+
+        return redirect('/comanda');
     }
 
     /**
@@ -47,7 +58,8 @@ class ComandaController extends Controller
      */
     public function show(Comanda $comanda)
     {
-        //
+        $comandas = Comanda::all();
+        return view('comandas/comandaShow', compact('comanda', 'comandas'));
     }
 
     /**
@@ -58,7 +70,7 @@ class ComandaController extends Controller
      */
     public function edit(Comanda $comanda)
     {
-        //
+        return view('comandas/comandaEdit', compact('comanda'));
     }
 
     /**
@@ -70,7 +82,15 @@ class ComandaController extends Controller
      */
     public function update(Request $request, Comanda $comanda)
     {
-        //
+        $request->validate([
+            'cerrada',
+            'total' => 'required',
+            'comentarios',
+        ]);
+
+        Comanda::where('id', $comanda->id)->update($request->except('_token', '_method'));
+
+        return redirect('/comanda');
     }
 
     /**
@@ -81,6 +101,8 @@ class ComandaController extends Controller
      */
     public function destroy(Comanda $comanda)
     {
-        //
+        $comanda->delete();
+
+        return redirect('comanda');
     }
 }
