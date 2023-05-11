@@ -24,7 +24,6 @@ Route::get('/', function () {
 });
  
 
-Route::get('/test', [OrdenController::class, 'test'])->name('test');
 Route::resource('mesa', MesaController::class);
 
 
