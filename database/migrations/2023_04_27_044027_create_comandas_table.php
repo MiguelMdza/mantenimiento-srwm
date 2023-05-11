@@ -15,8 +15,7 @@ class CreateComandasTable extends Migration
     {
         Schema::create('comandas', function (Blueprint $table) {
             $table->id();
-            $table->boolean('cerrada');
-            $table->decimal('total', 2);
+            $table->decimal('total');
             $table->text('comentarios')->nullable();
             $table->timestamps();
         });

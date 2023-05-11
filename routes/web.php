@@ -6,6 +6,8 @@ use App\Http\Controllers\MesaController;
 use App\Http\Controllers\OrdenController;
 use App\Http\Controllers\PlatilloController;
 use App\Http\Controllers\ProveedorController;
+use App\Http\Controllers\ComandaController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,8 +24,9 @@ Route::get('/', function () {
     //CUCEI
     return view('index');
 });
- 
 
+Route::resource('comanda', ComandaController::class);
+ 
 Route::resource('mesa', MesaController::class);
 
 
