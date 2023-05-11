@@ -35,7 +35,7 @@ class Mesa extends Model
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function urg(): BelongsTo
+    public function usuario(): BelongsTo
     {
         return $this->belongsTo(User::class, 'user_id', 'id');
     }

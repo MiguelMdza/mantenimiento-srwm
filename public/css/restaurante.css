@@ -420,6 +420,10 @@ a:focus {
     }
 }
 
+.booking-form h3{
+    color:white;
+    text-align: center;
+}
 
 /*******************************/
 /******* Section Header ********/
@@ -427,6 +431,7 @@ a:focus {
 .section-header {
     position: relative;
     margin-bottom: 45px;
+    text-align: center;
 }
 
 .section-header p {
