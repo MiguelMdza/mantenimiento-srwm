@@ -15,7 +15,8 @@ class AlimentoController extends Controller
      */
     public function index()
     {
-        //
+        $alimentos = Alimento::all();
+        return view('alimentos/alimentoIndex', compact('alimentos'));
     }
 
     /**
@@ -25,7 +26,7 @@ class AlimentoController extends Controller
      */
     public function create()
     {
-        //
+        return view('alimentos/alimentoCreate');
     }
 
     /**
@@ -36,7 +37,16 @@ class AlimentoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'nombre' => 'required|string|max:255',
+            'precio' => 'required|numeric|min:0',
+            'descripcion' => 'required|string|max:255',
+            'tipo' => 'required|string',
+        ]);
+
+        Alimento::create($request->all());
+
+        return redirect('/alimento');
     }
 
     /**

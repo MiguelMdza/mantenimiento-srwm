@@ -6,6 +6,7 @@ use App\Http\Controllers\MesaController;
 use App\Http\Controllers\OrdenController;
 use App\Http\Controllers\PlatilloController;
 use App\Http\Controllers\ProveedorController;
+use App\Http\Controllers\AlimentoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,9 +25,10 @@ Route::get('/', function () {
 });
  
 
-Route::get('/test', [OrdenController::class, 'test'])->name('test');
+// Route::get('/test', [OrdenController::class, 'test'])->name('test');
 Route::resource('mesa', MesaController::class);
 
+Route::resource('alimento', AlimentoController::class);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
