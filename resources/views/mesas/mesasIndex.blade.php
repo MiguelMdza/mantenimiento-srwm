@@ -40,7 +40,7 @@
                         <a href="/comanda" class="nav-item nav-link">Comandas</a>
                         <a href="/mesa" class="nav-item nav-link active">Mesas</a>
                         <a href="/alimento" class="nav-item nav-link">Alimentos</a>
-                        <!-- <a href="team.html" class="nav-item nav-link">Chef</a> -->
+                        <a href="/recurso" class="nav-item nav-link">Recursos</a>
                     </div>
                 </div>
             </div>

@@ -39,7 +39,7 @@
                         <a href="/comanda" class="nav-item nav-link">Comanda</a>
                         <a href="/mesa" class="nav-item nav-link">Mesas</a>
                         <a href="/alimento" class="nav-item nav-link active">Alimentos</a>
-                        <!-- <a href="booking.html" class="nav-item nav-link">Booking</a> -->
+                        <a href="/recurso" class="nav-item nav-link">Recursos</a>
                     </div>
                 </div>
             </div>
