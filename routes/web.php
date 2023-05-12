@@ -6,6 +6,7 @@ use App\Http\Controllers\MesaController;
 use App\Http\Controllers\OrdenController;
 use App\Http\Controllers\PlatilloController;
 use App\Http\Controllers\ProveedorController;
+use App\Http\Controllers\RecursoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,9 +23,10 @@ Route::get('/', function () {
     //CUCEI
     return view('index');
 });
- 
 
-Route::get('/test', [OrdenController::class, 'test'])->name('test');
+
+
+Route::resource('recurso', RecursoController::class);
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

@@ -15,7 +15,8 @@ class RecursoController extends Controller
      */
     public function index()
     {
-        //
+        $recursos = Recurso::all();
+        return view('recursos.recursoIndex', compact('recursos'));
     }
 
     /**
@@ -25,7 +26,7 @@ class RecursoController extends Controller
      */
     public function create()
     {
-        //
+        return view('recursos.recursoCreate');
     }
 
     /**
@@ -36,7 +37,15 @@ class RecursoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'nombre' => 'required|string|max:255',
+            'cantidad' => 'required|numeric|min:0',
+            'costo' => 'required|numeric|min:0',
+        ]);
+
+        Recurso::create($request->all());
+
+        return redirect('/recurso');
     }
 
     /**
@@ -58,7 +67,7 @@ class RecursoController extends Controller
      */
     public function edit(Recurso $recurso)
     {
-        //
+        return view('recursos/recursoEdit', compact('recurso'));
     }
 
     /**
@@ -70,7 +79,15 @@ class RecursoController extends Controller
      */
     public function update(Request $request, Recurso $recurso)
     {
-        //
+        $request->validate([
+            'nombre' => 'required|string|max:255',
+            'cantidad' => 'required|numeric|min:0',
+            'costo' => 'required|numeric|min:0',
+        ]);
+
+        Recurso::where('id', $recurso->id)->update($request->except('_token', '_method'));
+        return redirect('/recurso');
+
     }
 
     /**
@@ -81,6 +98,8 @@ class RecursoController extends Controller
      */
     public function destroy(Recurso $recurso)
     {
-        //
+        $recurso->delete();
+
+        return redirect('/recurso');
     }
 }
