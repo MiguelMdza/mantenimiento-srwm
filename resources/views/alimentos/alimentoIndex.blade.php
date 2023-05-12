@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alimentos - Index</title>
+    <title>SRWM - Alimentos</title>
+
+    <!-- Favicon -->
+    <link href="img/logo_small.png" rel="icon">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
@@ -24,27 +27,18 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-light navbar-light">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">Burger <span>King</span></a>
+            <a href="{{ url('/') }}" class="navbar-brand"><span>SRWM</span></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
-                    <a href="/" class="nav-item nav-link">Inicio</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="feature.html" class="nav-item nav-link">Feature</a>
-                    <a href="team.html" class="nav-item nav-link">Chef</a>
+                    <a href="{{ url('/') }}" class="nav-item nav-link">Inicio</a>
+                    <a href="/comanda" class="nav-item nav-link">Comandas</a>
+                    <a href="/mesa" class="nav-item nav-link">Mesas</a>
                     <a href="/alimento" class="nav-item nav-link active">Alimentos</a>
-                    <a href="booking.html" class="nav-item nav-link">Booking</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu">
-                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                            <a href="single.html" class="dropdown-item">Blog Detail</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <!-- <a href="booking.html" class="nav-item nav-link">Booking</a> -->
                 </div>
             </div>
         </div>
@@ -99,7 +93,7 @@
                                 <td>{{ $alimento->tipo }}</td>
                                 <td>{{ $alimento->descripcion }}</td>
                                 <td>
-                                    <a class="btn btn-woox text-light" href="/alimento/{{ $alimento->id }}/edit">Editar</a>
+                                    <a class="btn btn-warning" href="/alimento/{{ $alimento->id }}/edit">Editar</a>
                                 </td>
                                 <td>
                                     <form class="formulario-eliminar" action="/alimento/{{ $alimento->id }}" method="POST">

@@ -25,7 +25,6 @@ class Comanda extends Model
      * @var string[]
      */
     protected $fillable = [
-        'cerrada',
         'total',
         'comentarios',
     ];
