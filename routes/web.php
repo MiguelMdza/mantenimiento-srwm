@@ -9,6 +9,7 @@ use App\Http\Controllers\ProveedorController;
 use App\Http\Controllers\ComandaController;
 
 use App\Http\Controllers\AlimentoController;
+use App\Http\Controllers\RecursoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,11 +28,16 @@ Route::get('/', function () {
 });
 
 Route::resource('comanda', ComandaController::class);
- 
+
 // Route::get('/test', [OrdenController::class, 'test'])->name('test');
 Route::resource('mesa', MesaController::class);
 
 Route::resource('alimento', AlimentoController::class);
+
+
+
+Route::resource('recurso', RecursoController::class);
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

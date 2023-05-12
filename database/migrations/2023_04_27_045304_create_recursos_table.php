@@ -17,7 +17,7 @@ class CreateRecursosTable extends Migration
             $table->id();
             $table->string('nombre');
             $table->integer('cantidad');
-            $table->decimal('costo', 2);
+            $table->decimal('costo');
             $table->timestamps();
         });
     }
