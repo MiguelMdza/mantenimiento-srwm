@@ -65,7 +65,7 @@
                         <h2>Software Restaurant Web Master</h2>
                     </div>
                     <div class="col-12">
-                        <a href="">Crear</a>
+                        <a href="">Modificar</a>
                         <a href="">Recursos</a>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <button class="btn custom-btn" type="submit">Agregar</button>
+                                    <button class="btn custom-btn" type="submit">Modificar</button>
                                 </div>
                             </form>
                         </div>

@@ -11,8 +11,8 @@
         <link href="img/logo_small.png" rel="icon">
 
         <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
-        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet">
+
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -40,8 +40,9 @@
                         <a href="/comanda" class="nav-item nav-link">Comandas</a>
                         <a href="/mesa" class="nav-item nav-link">Mesas</a>
                         <a href="/alimento" class="nav-item nav-link">Alimentos</a>
+                        <a href="/recurso" class="nav-item nav-link">Recursos</a>
                         <!-- <a href="team.html" class="nav-item nav-link">Chef</a> -->
-                        
+
                     </div>
                 </div>
             </div>
@@ -101,8 +102,8 @@
             </div>
         </div>
         <!-- Carousel End -->
-        
-        
+
+
         <!-- Booking Start -->
         <div class="booking">
             <div class="container">
@@ -196,7 +197,7 @@
             </div>
         </div>
         <!-- Booking End -->
-        
+
 
         <!-- About Start -->
         <div class="about">
@@ -231,8 +232,8 @@
             </div>
         </div>
         <!-- About End -->
-        
-        
+
+
         <!-- Video Modal Start-->
         <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -240,7 +241,7 @@
                     <div class="modal-body">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
-                        </button>        
+                        </button>
                         <!-- 16:9 aspect ratio -->
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
@@ -248,10 +249,10 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
         <!-- Video Modal End -->
-        
-        
+
+
         <!-- Feature Start -->
         <div class="feature">
             <div class="container">
@@ -279,7 +280,7 @@
                                 </div>
                             </div>
                             <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl nec nisi sceleri maximus 
+                                Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl nec nisi sceleri maximus
                             </p>
                             <a class="btn custom-btn" href="">Book A Table</a>
                         </div>
@@ -350,8 +351,8 @@
             </div>
         </div>
         <!-- Feature End -->
-        
-        
+
+
         <!-- Food Start -->
         <div class="food">
             <div class="container">
@@ -361,7 +362,7 @@
                             <i class="flaticon-burger"></i>
                             <h2>Burgers</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem.
                             </p>
                             <a href="">View Menu</a>
                         </div>
@@ -371,7 +372,7 @@
                             <i class="flaticon-snack"></i>
                             <h2>Snacks</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem.
                             </p>
                             <a href="">View Menu</a>
                         </div>
@@ -381,7 +382,7 @@
                             <i class="flaticon-cocktail"></i>
                             <h2>Beverages</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem.
                             </p>
                             <a href="">View Menu</a>
                         </div>
@@ -390,8 +391,8 @@
             </div>
         </div>
         <!-- Food End -->
-        
-        
+
+
         <!-- Menu Start -->
         <div class="menu">
             <div class="container">
@@ -570,8 +571,8 @@
             </div>
         </div>
         <!-- Menu End -->
-        
-        
+
+
         <!-- Team Start -->
         <div class="team">
             <div class="container">
@@ -652,8 +653,8 @@
             </div>
         </div>
         <!-- Team End -->
-        
-        
+
+
         <!-- Testimonial Start -->
         <div class="testimonial">
             <div class="container">
@@ -702,8 +703,8 @@
             </div>
         </div>
         <!-- Testimonial End -->
-        
-        
+
+
         <!-- Contact Start -->
         <div class="contact">
             <div class="container">
@@ -921,7 +922,7 @@
         <script src="lib/tempusdominus/js/moment.min.js"></script>
         <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
         <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-        
+
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
