@@ -114,17 +114,17 @@
     </div>
 
     <!-- Food Start -->
-    <div class="food mt-0">
+    <div class="food">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-4">
                     <div class="food-item">
                         <i class="flaticon-burger"></i>
-                        <h2>Burgers</h2>
+                        <h2>Hamburguesas</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            Somos famosos por nuestras hamburguesas deliciosas y jugosas, hechas con ingredientes frescos y de alta calidad. 
                         </p>
-                        <a href="">View Menu</a>
+                        <a href="#">Ver Menu</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -132,19 +132,19 @@
                         <i class="flaticon-snack"></i>
                         <h2>Snacks</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            Nuestros snacks son perfectos para saciar tu hambre y satisfacer tus antojos. 
                         </p>
-                        <a href="">View Menu</a>
+                        <a href="#">Ver Menu</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="food-item">
                         <i class="flaticon-cocktail"></i>
-                        <h2>Beverages</h2>
+                        <h2>Bebidas</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
+                            Ofrecemos una gran selección de bebidas, desde refrescos clásicos hasta bebidas alcohólicas de alta calidad. 
                         </p>
-                        <a href="">View Menu</a>
+                        <a href="#">Ver Menu</a>
                     </div>
                 </div>
             </div>
@@ -157,22 +157,19 @@
     <div class="menu">
         <div class="container">
             <div class="section-header text-center">
-                <p>Food Menu</p>
-                <h2>Delicious Food Menu</h2>
+                <p>Menu</p>
+                <h2>Delicioso Menu</h2>
             </div>
             <div class="menu-tab">
                 <ul class="nav nav-pills justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="pill" href="#burgers">Burgers</a>
+                        <a class="nav-link active" data-toggle="pill" href="#burgers">Hamburguesas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="pill" href="#snacks">Snacks</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#beverages">Beverages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/alimento/create">Añadir +</a>
+                        <a class="nav-link" data-toggle="pill" href="#beverages">Bebidas</a>
                     </li>
                 </ul>
                 <div class="tab-content">
@@ -184,8 +181,8 @@
                                         <img src="img/menu-burger.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Mini cheese Burger</span> <strong>$9.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Mini Hamburguesa de Queso</span> <strong>$65.00</strong></h3>
+                                        <p>Clásica hamburguesa en una porción más pequeña y práctica.</p>
                                     </div>
                                 </div>
                                 <div class="menu-item">
@@ -193,8 +190,8 @@
                                         <img src="img/menu-burger.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Double size burger</span> <strong>$11.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Hamburguesa de Doble Tamaño</span> <strong>$80.00</strong></h3>
+                                        <p>Una porción grande de carne con doble queso, servida en un pan grande</p>
                                     </div>
                                 </div>
                                 <div class="menu-item">
@@ -202,8 +199,8 @@
                                         <img src="img/menu-burger.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Bacon, EGG and Cheese</span> <strong>$13.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Tocino, Huevo y Queso</span> <strong>$95.00</strong></h3>
+                                        <p>Es una opción para los que buscan una hamburguesa con un sabor adicional</p>
                                     </div>
                                 </div>
                                 <div class="menu-item">
@@ -211,8 +208,8 @@
                                         <img src="img/menu-burger.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Pulled porx Burger</span> <strong>$18.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Hamburguesa de Carne de Puerco</span> <strong>$102.00</strong></h3>
+                                        <p>Una opción jugosa, sabrosa y ligeramente diferente a la de ternera.</p>
                                     </div>
                                 </div>
                                 <div class="menu-item">
@@ -220,8 +217,8 @@
                                         <img src="img/menu-burger.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Fried chicken Burger</span> <strong>$22.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Hamburguesa de Pollo</span> <strong>$117.00</strong></h3>
+                                        <p>Opción ligera y saludable con carne aderezada en panecillo suave.</p>
                                     </div>
                                 </div>
                             </div>
@@ -238,8 +235,8 @@
                                         <img src="img/menu-snack.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Corn Tikki - Spicy fried Aloo</span> <strong>$15.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Maiz Tikki - Aloo Frito</span> <strong>$45.00</strong></h3>
+                                        <p>Deliciosos bocados crujientes de maíz y papa frita.</p>
                                     </div>
                                 </div>
                                 <div class="menu-item">
@@ -247,8 +244,8 @@
                                         <img src="img/menu-snack.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Bread besan Toast</span> <strong>$35.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Tostadas de Pan Besan</span> <strong>$68.00</strong></h3>
+                                        <p>Rebanadas de pan fritas y crujientes, cubiertas con una mezcla de harina.</p>
                                     </div>
                                 </div>
                                 <div class="menu-item">
@@ -256,8 +253,8 @@
                                         <img src="img/menu-snack.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Healthy soya nugget snacks</span> <strong>$20.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Snacks de Nuggets de Soja</span> <strong>$52.00</strong></h3>
+                                        <p>Pequeñas nuggets de soja tostadas y condimentadas.</p>
                                     </div>
                                 </div>
                                 <div class="menu-item">
@@ -265,8 +262,8 @@
                                         <img src="img/menu-snack.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Tandoori Soya Chunks</span> <strong>$30.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Trozos de Soja Tandoori</span> <strong>$30.00</strong></h3>
+                                        <p>Trocitos de soja marinados en una mezcla de especias Tandoori</p>
                                     </div>
                                 </div>
                             </div>
@@ -283,8 +280,8 @@
                                         <img src="img/menu-beverage.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Single Cup Brew</span> <strong>$7.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Copa de Cerveza</span> <strong>$32.00</strong></h3>
+                                        <p>Bebida alcohólica elaborada con granos de cebada fermentados y lúpulo.</p>
                                     </div>
                                 </div>
                                 <div class="menu-item">
@@ -292,8 +289,8 @@
                                         <img src="img/menu-beverage.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Caffe Americano</span> <strong>$9.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Café Americano</span> <strong>$22.00</strong></h3>
+                                        <p>Perfecto para acompañar un delicioso postre.</p>
                                     </div>
                                 </div>
                                 <div class="menu-item">
@@ -302,7 +299,7 @@
                                     </div>
                                     <div class="menu-text">
                                         <h3><span>Caramel Macchiato</span> <strong>$15.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <p>Para aquellos que disfrutan de un café suave con un toque de sabor.</p>
                                     </div>
                                 </div>
                                 <div class="menu-item">
@@ -310,17 +307,8 @@
                                         <img src="img/menu-beverage.jpg" alt="Image">
                                     </div>
                                     <div class="menu-text">
-                                        <h3><span>Standard black coffee</span> <strong>$8.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                    </div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="menu-img">
-                                        <img src="img/menu-beverage.jpg" alt="Image">
-                                    </div>
-                                    <div class="menu-text">
-                                        <h3><span>Standard black coffee</span> <strong>$12.00</strong></h3>
-                                        <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                        <h3><span>Café Negro Estándar</span> <strong>$12.00</strong></h3>
+                                        <p>Perfecta para aquellos que disfrutan del sabor fuerte del café.</p>
                                     </div>
                                 </div>
                             </div>
@@ -344,40 +332,40 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="footer-contact">
-                                <h2>Our Address</h2>
-                                <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                                <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                                <p><i class="fa fa-envelope"></i>info@example.com</p>
+                                <h2>Nuestra Información</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>Enrique Segoviano #13, JAL, MEX</p>
+                                <p><i class="fa fa-phone-alt"></i>+52 3335681257</p>
+                                <p><i class="fa fa-envelope"></i>olympus@gmail.com</p>
                                 <div class="footer-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="footer-link">
-                                <h2>Quick Links</h2>
-                                <a href="">Terms of use</a>
-                                <a href="">Privacy policy</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
+                                <h2>Enlaces</h2>
+                                <a href="#">Términos y Condiciones</a>
+                                <a href="#">Políticas de Privacidad</a>
+                                <a href="#">Cookies</a>
+                                <a href="#">Ayuda</a>
+                                <a href="#">FQAs</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="footer-newsletter">
-                        <h2>Newsletter</h2>
+                        <h2>Boletín Informátivo</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
+                            Si quieres recibir novedades acerca de nuestro restaurante, envíamos tu correo.
                         </p>
                         <div class="form">
-                            <input class="form-control" placeholder="Email goes here">
-                            <button class="btn custom-btn">Submit</button>
+                            <input class="form-control" placeholder="El correo va aquí">
+                            <button class="btn custom-btn">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -385,8 +373,8 @@
         </div>
         <div class="copyright">
             <div class="container">
-                <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
-                <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                <p>Derechos de Autor &copy; <a href="#">SRWM</a>, Todos los Derechos Revervados.</p>
+                <p>Diseñado por <a href="#">Olympus </a></p>
             </div>
         </div>
     </div>
