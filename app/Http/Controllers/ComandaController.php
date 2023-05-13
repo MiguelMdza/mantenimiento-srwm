@@ -51,7 +51,7 @@ class ComandaController extends Controller
     {
         $request->validate([
             'total' => 'required',
-            'comentarios',
+            'comentarios' => 'required|string|min:8|max:255',
         ]);
 
         /* Comanda::create($request->all()); */
@@ -108,9 +108,8 @@ class ComandaController extends Controller
     public function update(Request $request, Comanda $comanda)
     {
         $request->validate([
-            'cerrada',
             'total' => 'required',
-            'comentarios',
+            'comentarios' => 'required|string|min:8|max:255',
         ]);
 
         /* Comanda::where('id', $comanda->id)->update($request->except('_token', '_method')); */

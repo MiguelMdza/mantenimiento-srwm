@@ -79,6 +79,14 @@
                     <div class="col-lg-5">
                         <div class="booking-form">
                             <h3>LA MEJOR COMIDA DE LA CIUDAD</h3>
+                            @if($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
                             <form method="POST" action="/mesa/{{ $mesa->id }}">
                                 @csrf
                                 @method('PATCH')

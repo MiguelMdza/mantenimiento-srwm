@@ -79,6 +79,15 @@
                     <div class="col-lg-5">
                         <div class="booking-form">
                             <h3>LA MEJOR COMIDA DE LA CIUDAD</h3>
+                            @if($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                            @endif
                             <form action="/alimento" method="POST">
                                 @csrf
                                 <div class="control-group">
@@ -107,7 +116,7 @@
                                 </div> -->
                                 <div class="control-group">
                                     <div class="input-group time" id="time" data-target-input="nearest">
-                                        <textarea class="form-control" style="padding-top: 11px" id="descripcion" name="descripcion" placeholder="Descripción"></textarea>
+                                        <textarea class="form-control" style="padding-top: 11px" id="descripcion" name="descripcion" value="{{ old('descripcion') }}" placeholder="Descripción"></textarea>
                                         <div class="input-group-append">
                                             <div class="input-group-text"><i class="far fa-clock"></i></div>
                                         </div>

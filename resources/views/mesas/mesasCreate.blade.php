@@ -79,30 +79,33 @@
                     <div class="col-lg-5">
                         <div class="booking-form">
                             <h3>LA MEJOR COMIDA DE LA CIUDAD</h3>
+                            @if($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                            @endif
                             <form method="POST" action="/mesa">
                                 @csrf
                                 <div class="control-group">
                                     <div class="input-group">
-                                        <select name="user_id" id="user_id" class="form-control form-control-lg" required>
+                                        <select name="user_id" id="user_id" class="form-control form-control-lg" value="{{ old('user_id') }}" required>
                                             <option selected disabled>Mesero que atenderá</option>
                                             @foreach($users as $user)
                                                 <option class="text-dark" value="{{ $user->id }}">{{$user->name}}</option>
                                             @endforeach
-                                            @error('user_id')
-                                                <i>{{ $message}}</i>
-                                            @enderror
                                         </select>
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <div class="input-group">
-                                        <input type="number" name="cantidad_personas" id="cantidad_personas" class="form-control" placeholder="No. de personas" required="required" min="1" max="8"/>
+                                        <input type="number" name="cantidad_personas" id="cantidad_personas" class="form-control" value="{{ old('cantidad_personas') }}" placeholder="No. de personas" required="required" min="1" max="8"/>
                                         <div class="input-group-append">
                                             <div class="input-group-text"></div>
                                         </div>
-                                        @error('user_id')
-                                            <i>{{ $message}}</i>
-                                        @enderror
                                     </div>
                                 </div>
                                     <button class="btn custom-btn" type="submit">Agregar</button>

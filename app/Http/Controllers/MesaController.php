@@ -48,7 +48,7 @@ class MesaController extends Controller
         $request->validate([
             'user_id' => 'required', 
             'disponible',
-            'cantidad_personas' => 'required|min:1|max:8',
+            'cantidad_personas' => 'required|numeric|min:1|max:8',
         ]);
 
         $mesa = Mesa::create($request->all());
@@ -84,7 +84,7 @@ class MesaController extends Controller
           $request->validate([
             'user_id' => 'required', 
             'disponible',
-            'cantidad_personas' => 'required|min:1|max:8',
+            'cantidad_personas' => 'required|numeric|min:1|max:8',
         ]);
 
         //La información viene de empleadosEdit.blade.php y se guarda
