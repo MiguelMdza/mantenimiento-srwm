@@ -58,13 +58,13 @@
                             <img src="img/carousel-1.jpg" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Best <span>Quality</span> Ingredients</h1>
+                            <h1>Mejor <span>Calidad</span> en Ingredientes</h1>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat at lectus in malesuada
+                                Nos enorgullecemos de utilizar solo ingredientes de la más alta calidad, que son cuidadosamente seleccionados de los proveedores más confiables y frescos.
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">View Menu</a>
-                                <a class="btn custom-btn" href="">Book Table</a>
+                                <a class="btn custom-btn" href="#">Ver Menu</a>
+                                <a class="btn custom-btn" href="#">Reservar una mesa</a>
                             </div>
                         </div>
                     </div>
@@ -73,13 +73,13 @@
                             <img src="img/carousel-2.jpg" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>World’s <span>Best</span> Chef</h1>
+                            <h1>El Mejor <span>Chef</span> del Mundo</h1>
                             <p>
-                                Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci sodales varius fermentum, tortor
+                                Somos un lugar de referencia para los amantes de la alta gastronomía y estamos orgullosos de contar con el mejor chef del mundo en nuestra cocina. Con más de 20 años de experiencia y múltiples premios internacionales, nuestro chef se ha ganado un lugar destacado en el mundo culinario gracias a su creatividad, innovación y excelencia en cada plato.
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">View Menu</a>
-                                <a class="btn custom-btn" href="">Book Table</a>
+                                <a class="btn custom-btn" href="#">Ver Menu</a>
+                                <a class="btn custom-btn" href="#">Reservar una mesa</a>
                             </div>
                         </div>
                     </div>
@@ -88,13 +88,13 @@
                             <img src="img/carousel-3.jpg" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>Fastest Order <span>Delivery</span></h1>
+                            <h1>Entrega <span>Rápida</span></h1>
                             <p>
-                                Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam. Proin pellentesque odio
+                                En nuestro restaurante nos preocupamos por la rapidez y eficiencia en la entrega de tus alimentos, por lo que nuestro equipo está altamente capacitado para garantizar que tus platos lleguen a tiempo y en perfectas condiciones.
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">View Menu</a>
-                                <a class="btn custom-btn" href="">Book Table</a>
+                                <a class="btn custom-btn" href="#">Ver Menu</a>
+                                <a class="btn custom-btn" href="#">Reservar una mesa</a>
                             </div>
                         </div>
                     </div>
@@ -102,102 +102,6 @@
             </div>
         </div>
         <!-- Carousel End -->
-
-
-        <!-- Booking Start -->
-        <div class="booking">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <div class="booking-content">
-                            <div class="section-header">
-                                <p>Book A Table</p>
-                                <h2>Book Your Table For Private Dinners & Happy Hours</h2>
-                            </div>
-                            <div class="about-text">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="booking-form">
-                            <form>
-                                <div class="control-group">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="Name" required="required" />
-                                        <div class="input-group-append">
-                                            <div class="input-group-text"><i class="far fa-user"></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <div class="input-group">
-                                        <input type="email" class="form-control" placeholder="Email" required="required" />
-                                        <div class="input-group-append">
-                                            <div class="input-group-text"><i class="far fa-envelope"></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="Mobile" required="required" />
-                                        <div class="input-group-append">
-                                            <div class="input-group-text"><i class="fa fa-mobile-alt"></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <div class="input-group date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker"/>
-                                        <div class="input-group-append" data-target="#date" data-toggle="datetimepicker">
-                                            <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <div class="input-group time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker"/>
-                                        <div class="input-group-append" data-target="#time" data-toggle="datetimepicker">
-                                            <div class="input-group-text"><i class="far fa-clock"></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <div class="input-group">
-                                        <select class="custom-select form-control">
-                                            <option selected>Guest</option>
-                                            <option value="1">1 Guest</option>
-                                            <option value="2">2 Guest</option>
-                                            <option value="3">3 Guest</option>
-                                            <option value="4">4 Guest</option>
-                                            <option value="5">5 Guest</option>
-                                            <option value="6">6 Guest</option>
-                                            <option value="7">7 Guest</option>
-                                            <option value="8">8 Guest</option>
-                                            <option value="9">9 Guest</option>
-                                            <option value="10">10 Guest</option>
-                                        </select>
-                                        <div class="input-group-append">
-                                            <div class="input-group-text"><i class="fa fa-chevron-down"></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <button class="btn custom-btn" type="submit">Book Now</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Booking End -->
-
 
         <!-- About Start -->
         <div class="about">
@@ -214,17 +118,17 @@
                     <div class="col-lg-6">
                         <div class="about-content">
                             <div class="section-header">
-                                <p>About Us</p>
-                                <h2>Cooking Since 1990</h2>
+                                <p>Acerca de nosotros</p>
+                                <h2>Cocinando desde 1990</h2>
                             </div>
                             <div class="about-text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                                    ¡Bienvenidos a nuestro restaurante! Desde 1990, hemos estado sirviendo los platos más deliciosos y auténticos de la cocina local e internacional. Durante más de 30 años, nuestro restaurante ha sido un punto de referencia para los amantes de la buena comida y la excelencia en el servicio al cliente.
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                                    En nuestro menú encontrarás una amplia variedad de opciones, desde platos tradicionales hasta opciones innovadoras y modernas, todo preparado con ingredientes frescos y de alta calidad. Nuestro chef y su equipo de cocineros altamente capacitados se esmeran cada día para ofrecerte la mejor calidad en cada plato que sirven.
                                 </p>
-                                <a class="btn custom-btn" href="">Book A Table</a>
+                                <a class="btn custom-btn" href="#">Reserva una mesa</a>
                             </div>
                         </div>
                     </div>
@@ -259,8 +163,8 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="section-header">
-                            <p>Why Choose Us</p>
-                            <h2>Our Key Features</h2>
+                            <p>¿Por qué elegirno?</p>
+                            <h2>Nuestras características</h2>
                         </div>
                         <div class="feature-text">
                             <div class="feature-img">
@@ -280,9 +184,9 @@
                                 </div>
                             </div>
                             <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl nec nisi sceleri maximus
+                                En nuestro menú encontrarás una selección única de platos, cada uno cuidadosamente elaborado con ingredientes de la más alta calidad y técnicas culinarias de vanguardia. Desde nuestras entradas hasta nuestros postres, cada plato es una obra maestra de la cocina moderna, que combina sabores y texturas de manera sorprendente.
                             </p>
-                            <a class="btn custom-btn" href="">Book A Table</a>
+                            <a class="btn custom-btn" href="#">Reserva una mesa</a>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -290,18 +194,18 @@
                             <div class="col-sm-6">
                                 <div class="feature-item">
                                     <i class="flaticon-cooking"></i>
-                                    <h3>World’s best Chef</h3>
+                                    <h3>El Mejor Chef del Mundo</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                        No solo contamos con el mejor chef del mundo, sino también con un equipo de profesionales apasionados por la cocina y el servicio al cliente.
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="feature-item">
                                     <i class="flaticon-vegetable"></i>
-                                    <h3>Natural ingredients</h3>
+                                    <h3>Ingredientes Naturales</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                        Nos enfocamos en utilizar ingredientes frescos y naturales en su estado más puro, sin aditivos ni conservantes artificiales.
                                     </p>
                                 </div>
                             </div>
@@ -310,18 +214,18 @@
                             <div class="col-sm-6">
                                 <div class="feature-item">
                                     <i class="flaticon-medal"></i>
-                                    <h3>Best quality products</h3>
+                                    <h3>Productos de la Mejor Calidad</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                        Utilizamos solo carnes de animales criados de manera responsable, y frutas y verduras recién cosechadas.
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="feature-item">
                                     <i class="flaticon-meat"></i>
-                                    <h3>Fresh vegetables & Meet</h3>
+                                    <h3>Carne y Vegetales Frescos</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                        Nos enorgullece ofrecer una experiencia culinaria única, donde la frescura y la calidad de nuestros ingredientes son una prioridad para nosotros. 
                                     </p>
                                 </div>
                             </div>
@@ -330,18 +234,18 @@
                             <div class="col-sm-6">
                                 <div class="feature-item">
                                     <i class="flaticon-courier"></i>
-                                    <h3>Fastest door delivery</h3>
+                                    <h3>Entrega rápida a su puerta</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                        Nos preocupamos por la rapidez y eficiencia en la entrega de tus alimentos, por lo que nuestro equipo está altamente capacitado para garantizar que tus platos lleguen a tiempo y en perfectas condiciones.
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="feature-item">
                                     <i class="flaticon-fruits-and-vegetables"></i>
-                                    <h3>Ground beef & Low fat</h3>
+                                    <h3>Bajo en grasas</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
+                                        En nuestro menú encontrarás opciones bajas en grasas, pero con una gran variedad de sabores y texturas, desde ensaladas frescas hasta platos principales deliciosos.
                                     </p>
                                 </div>
                             </div>
@@ -360,11 +264,11 @@
                     <div class="col-md-4">
                         <div class="food-item">
                             <i class="flaticon-burger"></i>
-                            <h2>Burgers</h2>
+                            <h2>Hamburguesas</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem.
+                                Somos famosos por nuestras hamburguesas deliciosas y jugosas, hechas con ingredientes frescos y de alta calidad. 
                             </p>
-                            <a href="">View Menu</a>
+                            <a href="#">Ver Menu</a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -372,19 +276,19 @@
                             <i class="flaticon-snack"></i>
                             <h2>Snacks</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem.
+                                Nuestros snacks son perfectos para saciar tu hambre y satisfacer tus antojos. 
                             </p>
-                            <a href="">View Menu</a>
+                            <a href="#">Ver Menu</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="food-item">
                             <i class="flaticon-cocktail"></i>
-                            <h2>Beverages</h2>
+                            <h2>Bebidas</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem.
+                                Ofrecemos una gran selección de bebidas, desde refrescos clásicos hasta bebidas alcohólicas de alta calidad. 
                             </p>
-                            <a href="">View Menu</a>
+                            <a href="#">Ver Menu</a>
                         </div>
                     </div>
                 </div>
@@ -397,19 +301,19 @@
         <div class="menu">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Food Menu</p>
-                    <h2>Delicious Food Menu</h2>
+                    <p>Menu</p>
+                    <h2>Delicioso Menu</h2>
                 </div>
                 <div class="menu-tab">
                     <ul class="nav nav-pills justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link active" data-toggle="pill" href="#burgers">Burgers</a>
+                            <a class="nav-link active" data-toggle="pill" href="#burgers">Hamburguesas</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="pill" href="#snacks">Snacks</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#beverages">Beverages</a>
+                            <a class="nav-link" data-toggle="pill" href="#beverages">Bebidas</a>
                         </li>
                     </ul>
                     <div class="tab-content">
@@ -421,8 +325,8 @@
                                             <img src="img/menu-burger.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Mini cheese Burger</span> <strong>$9.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Mini Hamburguesa de Queso</span> <strong>$65.00</strong></h3>
+                                            <p>Clásica hamburguesa en una porción más pequeña y práctica.</p>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -430,8 +334,8 @@
                                             <img src="img/menu-burger.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Double size burger</span> <strong>$11.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Hamburguesa de Doble Tamaño</span> <strong>$80.00</strong></h3>
+                                            <p>Una porción grande de carne con doble queso, servida en un pan grande</p>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -439,8 +343,8 @@
                                             <img src="img/menu-burger.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Bacon, EGG and Cheese</span> <strong>$13.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Tocino, Huevo y Queso</span> <strong>$95.00</strong></h3>
+                                            <p>Es una opción para los que buscan una hamburguesa con un sabor adicional</p>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -448,8 +352,8 @@
                                             <img src="img/menu-burger.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Pulled porx Burger</span> <strong>$18.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Hamburguesa de Carne de Puerco</span> <strong>$102.00</strong></h3>
+                                            <p>Una opción jugosa, sabrosa y ligeramente diferente a la de ternera.</p>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -457,8 +361,8 @@
                                             <img src="img/menu-burger.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Fried chicken Burger</span> <strong>$22.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Hamburguesa de Pollo</span> <strong>$117.00</strong></h3>
+                                            <p>Opción ligera y saludable con carne aderezada en panecillo suave.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -475,8 +379,8 @@
                                             <img src="img/menu-snack.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Corn Tikki - Spicy fried Aloo</span> <strong>$15.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Maiz Tikki - Aloo Frito</span> <strong>$45.00</strong></h3>
+                                            <p>Deliciosos bocados crujientes de maíz y papa frita.</p>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -484,8 +388,8 @@
                                             <img src="img/menu-snack.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Bread besan Toast</span> <strong>$35.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Tostadas de Pan Besan</span> <strong>$68.00</strong></h3>
+                                            <p>Rebanadas de pan fritas y crujientes, cubiertas con una mezcla de harina.</p>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -493,8 +397,8 @@
                                             <img src="img/menu-snack.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Healthy soya nugget snacks</span> <strong>$20.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Snacks de Nuggets de Soja</span> <strong>$52.00</strong></h3>
+                                            <p>Pequeñas nuggets de soja tostadas y condimentadas.</p>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -502,8 +406,8 @@
                                             <img src="img/menu-snack.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Tandoori Soya Chunks</span> <strong>$30.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Trozos de Soja Tandoori</span> <strong>$30.00</strong></h3>
+                                            <p>Trocitos de soja marinados en una mezcla de especias Tandoori</p>
                                         </div>
                                     </div>
                                 </div>
@@ -520,8 +424,8 @@
                                             <img src="img/menu-beverage.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Single Cup Brew</span> <strong>$7.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Copa de Cerveza</span> <strong>$32.00</strong></h3>
+                                            <p>Bebida alcohólica elaborada con granos de cebada fermentados y lúpulo.</p>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -529,8 +433,8 @@
                                             <img src="img/menu-beverage.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Caffe Americano</span> <strong>$9.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Café Americano</span> <strong>$22.00</strong></h3>
+                                            <p>Perfecto para acompañar un delicioso postre.</p>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -539,7 +443,7 @@
                                         </div>
                                         <div class="menu-text">
                                             <h3><span>Caramel Macchiato</span> <strong>$15.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <p>Para aquellos que disfrutan de un café suave con un toque de sabor.</p>
                                         </div>
                                     </div>
                                     <div class="menu-item">
@@ -547,17 +451,8 @@
                                             <img src="img/menu-beverage.jpg" alt="Image">
                                         </div>
                                         <div class="menu-text">
-                                            <h3><span>Standard black coffee</span> <strong>$8.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-beverage.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Standard black coffee</span> <strong>$12.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
+                                            <h3><span>Café Negro Estándar</span> <strong>$12.00</strong></h3>
+                                            <p>Perfecta para aquellos que disfrutan del sabor fuerte del café.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -577,8 +472,8 @@
         <div class="team">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Our Team</p>
-                    <h2>Our Master Chef</h2>
+                    <p>Nuestro Equipo</p>
+                    <h2>Nuestros Masters Chef</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
@@ -586,15 +481,15 @@
                             <div class="team-img">
                                 <img src="img/team-1.jpg" alt="Image">
                                 <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="team-text">
-                                <h2>Adam Phillips</h2>
-                                <p>CEO, Co Founder</p>
+                                <h2>Rodrigo Torres</h2>
+                                <p>CEO, Co Fundador</p>
                             </div>
                         </div>
                     </div>
@@ -603,14 +498,14 @@
                             <div class="team-img">
                                 <img src="img/team-2.jpg" alt="Image">
                                 <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="team-text">
-                                <h2>Dylan Adams</h2>
+                                <h2>Daniel Vargas</h2>
                                 <p>Master Chef</p>
                             </div>
                         </div>
@@ -620,14 +515,14 @@
                             <div class="team-img">
                                 <img src="img/team-3.jpg" alt="Image">
                                 <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="team-text">
-                                <h2>Jhon Doe</h2>
+                                <h2>Javier Mendoza</h2>
                                 <p>Master Chef</p>
                             </div>
                         </div>
@@ -637,14 +532,14 @@
                             <div class="team-img">
                                 <img src="img/team-4.jpg" alt="Image">
                                 <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="team-text">
-                                <h2>Josh Dunn</h2>
+                                <h2>Sebastián Gutiérrez</h2>
                                 <p>Master Chef</p>
                             </div>
                         </div>
@@ -664,40 +559,36 @@
                             <img src="img/testimonial-1.jpg" alt="Image">
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
+                            "Excelente sabor en las hamburguesas, definitivamente volvería."
                         </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
+                        <h2>Luisa Fernanda García</h2>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-img">
                             <img src="img/testimonial-2.jpg" alt="Image">
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
+                            "Buenas opciones vegetarianas y ambiente acogedor."
                         </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
+                        <h2>Juan Carlos Rodríguez</h2>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-img">
                             <img src="img/testimonial-3.jpg" alt="Image">
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
+                            "La hamburguesa con queso y tocino estaba deliciosa."
                         </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
+                        <h2>Daniela Martínez Castaño</h2>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-img">
                             <img src="img/testimonial-4.jpg" alt="Image">
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput
+                            "Personalicé mi hamburguesa y quedó perfecta, buen servicio y precio razonable."
                         </p>
-                        <h2>Client Name</h2>
-                        <h3>Profession</h3>
+                        <h2>Santiago Torres Gómez</h2>
                     </div>
                 </div>
             </div>
@@ -709,8 +600,8 @@
         <div class="contact">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Contact Us</p>
-                    <h2>Contact For Any Query</h2>
+                    <p>Contáctanos</p>
+                    <h2>Contacta para obtener más información</h2>
                 </div>
                 <div class="row align-items-center contact-information">
                     <div class="col-md-6 col-lg-3">
@@ -719,8 +610,8 @@
                                 <i class="fa fa-map-marker-alt"></i>
                             </div>
                             <div class="contact-text">
-                                <h3>Address</h3>
-                                <p>123 Street, NY, USA</p>
+                                <h3>Dirección</h3>
+                                <p>Enrique Segoviano #13, JAL, MEX</p>
                             </div>
                         </div>
                     </div>
@@ -730,8 +621,8 @@
                                 <i class="fa fa-phone-alt"></i>
                             </div>
                             <div class="contact-text">
-                                <h3>Call Us</h3>
-                                <p>+012 345 6789</p>
+                                <h3>Teléfono</h3>
+                                <p>+52 3335681257</p>
                             </div>
                         </div>
                     </div>
@@ -741,8 +632,8 @@
                                 <i class="fa fa-envelope"></i>
                             </div>
                             <div class="contact-text">
-                                <h3>Email Us</h3>
-                                <p>info@example.com</p>
+                                <h3>Correo</h3>
+                                <p>olympus@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -752,13 +643,13 @@
                                 <i class="fa fa-share"></i>
                             </div>
                             <div class="contact-text">
-                                <h3>Follow Us</h3>
+                                <h3>Síguenos</h3>
                                 <div class="contact-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -772,23 +663,23 @@
                         <div id="success"></div>
                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
                             <div class="control-group">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <input type="text" class="form-control" id="name" placeholder="Nombre" required="required" data-validation-required-message="Por favor ingresa tu nombre" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <input type="email" class="form-control" id="email" placeholder="Correo" required="required" data-validation-required-message="Por favor ingresa tu correo" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <input type="text" class="form-control" id="subject" placeholder="Motivo" required="required" data-validation-required-message="Por favor ingresa un motivo" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <textarea class="form-control" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Por favor ingresa tu mensaje"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn custom-btn" type="submit" id="sendMessageButton">Send Message</button>
+                                <button class="btn custom-btn" type="submit" id="sendMessageButton">Enviar Mensaje</button>
                             </div>
                         </form>
                     </div>
@@ -802,8 +693,8 @@
         <div class="blog">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Food Blog</p>
-                    <h2>Latest From Food Blog</h2>
+                    <p>Blog de Comida</p>
+                    <h2>Lo Último del Blog de Comida</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -812,18 +703,18 @@
                                 <img src="img/blog-1.jpg" alt="Blog">
                             </div>
                             <div class="blog-content">
-                                <h2 class="blog-title">Lorem ipsum dolor sit amet</h2>
+                                <h2 class="blog-title">Lo Mejor del Mundo</h2>
                                 <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Food</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>10</p>
+                                    <p><i class="far fa-user"></i>Diego</p>
+                                    <p><i class="far fa-list-alt"></i>Comida</p>
+                                    <p><i class="far fa-calendar-alt"></i>05-May-2023</p>
+                                    <p><i class="far fa-comments"></i>15</p>
                                 </div>
                                 <div class="blog-text">
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor. Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte
+                                        Comer en su restaurante es lo mejor que me ha pasado en el mundo, y quién piense diferente, debería darse una vuelta por ahí.
                                     </p>
-                                    <a class="btn custom-btn" href="">Read More</a>
+                                    <a class="btn custom-btn" href="#">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -834,18 +725,18 @@
                                 <img src="img/blog-2.jpg" alt="Blog">
                             </div>
                             <div class="blog-content">
-                                <h2 class="blog-title">Lorem ipsum dolor sit amet</h2>
+                                <h2 class="blog-title">Siempre Me Pido Uno</h2>
                                 <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Food</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>10</p>
+                                    <p><i class="far fa-user"></i>Sofia</p>
+                                    <p><i class="far fa-list-alt"></i>Bebidas</p>
+                                    <p><i class="far fa-calendar-alt"></i>03-April-2023</p>
+                                    <p><i class="far fa-comments"></i>7</p>
                                 </div>
                                 <div class="blog-text">
                                     <p>
-                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor. Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte
+                                        Cada que los visito me pido una de sus mejores bebidas, ya hasta los meseros saben a lo que voy. Es de lo más fantástico en este mundo mundial.
                                     </p>
-                                    <a class="btn custom-btn" href="">Read More</a>
+                                    <a class="btn custom-btn" href="#">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -864,40 +755,40 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="footer-contact">
-                                    <h2>Our Address</h2>
-                                    <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                                    <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                                    <p><i class="fa fa-envelope"></i>info@example.com</p>
+                                    <h2>Nuestra Información</h2>
+                                    <p><i class="fa fa-map-marker-alt"></i>Enrique Segoviano #13, JAL, MEX</p>
+                                    <p><i class="fa fa-phone-alt"></i>+52 3335681257</p>
+                                    <p><i class="fa fa-envelope"></i>olympus@gmail.com</p>
                                     <div class="footer-social">
-                                        <a href=""><i class="fab fa-twitter"></i></a>
-                                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a href=""><i class="fab fa-youtube"></i></a>
-                                        <a href=""><i class="fab fa-instagram"></i></a>
-                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="footer-link">
-                                    <h2>Quick Links</h2>
-                                    <a href="">Terms of use</a>
-                                    <a href="">Privacy policy</a>
-                                    <a href="">Cookies</a>
-                                    <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <h2>Enlaces</h2>
+                                    <a href="#">Términos y Condiciones</a>
+                                    <a href="#">Políticas de Privacidad</a>
+                                    <a href="#">Cookies</a>
+                                    <a href="#">Ayuda</a>
+                                    <a href="#">FQAs</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5">
                         <div class="footer-newsletter">
-                            <h2>Newsletter</h2>
+                            <h2>Boletín Informátivo</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
+                                Si quieres recibir novedades acerca de nuestro restaurante, envíamos tu correo.
                             </p>
                             <div class="form">
-                                <input class="form-control" placeholder="Email goes here">
-                                <button class="btn custom-btn">Submit</button>
+                                <input class="form-control" placeholder="El correo va aquí">
+                                <button class="btn custom-btn">Enviar</button>
                             </div>
                         </div>
                     </div>
@@ -905,8 +796,8 @@
             </div>
             <div class="copyright">
                 <div class="container">
-                    <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    <p>Derechos de Autor &copy; <a href="#">SRWM</a>, Todos los Derechos Revervados.</p>
+                    <p>Diseñado por <a href="#">Olympus</a></p>
                 </div>
             </div>
         </div>
