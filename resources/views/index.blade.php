@@ -797,7 +797,7 @@
             <div class="copyright">
                 <div class="container">
                     <p>Derechos de Autor &copy; <a href="#">SRWM</a>, Todos los Derechos Revervados.</p>
-                    <p>Diseñado por <a href="#">Olympus</a></p>
+                    <p>Diseñado por <a href="#">Olympus </a></p>
                 </div>
             </div>
         </div>
